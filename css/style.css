@@ -1,0 +1,147 @@
+.body-html{
+    margin: 0px;
+    padding: 0px;
+    font-family: Serif;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login img{
+    width: 103px;
+    height: 31px;
+    margin-top: 15px;
+}
+
+.card{
+    width: 296px;
+    height: 240px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin: 20px auto 25px auto
+}
+
+.card h1{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.card label{
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+.card input{
+    width: 272px;
+    height: 25px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    background-color: white;
+    border: 1px grey;
+    border-radius: 3px;
+}
+
+.card button{
+    width: 288px;
+    height: 31px;
+    margin-top: 3px;
+    background-color: white;
+    border: 1px grey;
+    background-image: linear-gradient(#FFA500,#FF7F50);
+    border-radius: 3px;
+}
+
+.card{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.a{
+    text-decoration: none;
+    color: blue;
+}
+
+.card a{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.icon::before{
+    display: inline-block;
+    content:"";
+    border-top: 4px transparent;
+    border-left: 4px transparent;
+    border-bottom: 4px transparent;
+    margin-right: 10px;
+}
+
+.line{
+    font-size: 12px;
+    color: grey;
+    font-weight: 400;
+    position: relative;
+    display: inline-block;
+    background-color: white;
+    padding: 0 8px 0 7px; 
+}
+
+.line, .html{
+    display: flex;
+    justify-content: center;
+}
+
+.line p{
+    content: "";
+    position: relative;
+    top: 5px;
+    display: inline-block;
+    width: 120px;
+    border-top: white;
+}
+
+
+.btn button{
+    display: flex;
+    justify-content: center;
+    width: 348px;
+    height: 31px;
+    margin: 15px auto;
+    background-color: grey;
+    background-image: linear-gradient(#B2BEB5,#D3D3D3);
+    border: 1px lightgrey;
+    border-radius: 3px;
+}
+
+footer .links{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin: 25px auto 15px auto;
+}
+
+
+footer::before{
+    content: "";
+    display:  flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    height: 44px;
+    margin-top: -35px;
+    border-top: 1px transparent;
+    box-shadow: 0 10px 15px -20px black;
+}
+
+footer p{
+    font-size: 11px;
+    color: grey;
+    text-align: center;
+}
